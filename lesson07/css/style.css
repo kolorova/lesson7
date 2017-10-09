@@ -1,0 +1,40 @@
+
+header, footer, aside, section{
+	border: 2px solid navy;
+}
+
+header{
+	grid-area: header;
+}
+
+section{
+	grid-area: section;
+}
+
+aside{
+	grid-area: aside;
+}
+
+footer{
+	grid-area: footer;
+}
+
+#wrap {
+border: 2px solid navy;
+  display: grid;
+  grid-row: 1fr 4fr 1fr;
+  grid-column:35% 65%;
+  grid-template-areas:
+		"header header"
+		"aside section"
+		"footer footer";
+}
+.section-background{
+	width: 350px;
+
+}
+
+aside{
+	background: green;
+}
+
